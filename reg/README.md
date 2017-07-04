@@ -9,61 +9,61 @@ IPSO Smart Object Guidelines provide a common design pattern, an object model, t
 This object set is intended to be used as a starting place from which to build more as needed Some of the objects are generic in nature, such as voltage, altitude or percentage, while others are more specialized like the Color Object or the Gyrometer Object. Actuators and Controllers are defined such as timer or buzzer and Joystick and Level. All of these objects were found to be necessary on a variety of use case domains.
 
 
-| Object 				| Object ID   |
-|:----------------------|:-----------:|
-|    Digital Input				| 3200|
-|    Digital Output  			| 3201|
-|    Analogue Input  			| 3202|
-|    Analogue Output 			| 3203|
-|    Generic Sensor  			| 3300|
-|    Illuminance Sensor 		| 3301|
-|    Presence sensor 			| 3302|
-|    Temperature Sensor 		| 3303|
-|    Humidity Sensor 			| 3304|
-|    Power Measurement 			| 3305|
-|    Actuation 					| 3306|
-|    Set Point 					| 3308|
-|    Load Control 				| 3310|
-|    Light Control 				| 3311|
-|    Power Control 				| 3312|
-|    Accelerometer 				| 3313|
-|    Magnetometer 				| 3314|
-|    Barometer  	   		 	| 3315|
-|    Voltage					| 3316|
-|    Current					| 3317|
-|    Frequency					| 3318|
-|    Depth						| 3319|
-|    Percentage					| 3320|
-|    Altitude					| 3321|
-|    Load						| 3322|
-|    Pressure					| 3323|
-|    Loudness					| 3324|
-|    Concentration 				| 3325|
-|    Acidity					| 3326|
-|    Conductivity				| 3327|
-|    Power						| 3328|
-|    Power Factor				| 3329|
-|    Distance					| 3330|
-|    Energy						| 3331|
-|    Direction					| 3332|
-|    Time						| 3333|
-|    Gyrometer					| 3334|
-|    Color 						| 3335|
-|    GPS Location 				| 3336|
-|    Positioner 				| 3337|
-|    Buzzer						| 3338|
-|    Audio Clip					| 3339|
-|    Timer						| 3340|
-|    Addressable Text Display	| 3341|
-|    On/Off Switch				| 3342|
-|    Level Controllers			| 3343|
-|    Up/Down Control			| 3344|
-|    Multiple Axis Joystick		| 3345|
-|    Rate						| 3346|
-|    Push Button				| 3347|
-|    Multi-state Selector		| 3348|
-|    Bitmap                     | 3349|
-|    Stopwatch                  | 3350|
+| Object                        | Object ID           |
+|:------------------------------|:-------------------:|
+|    Digital Input              | [3200](xml/3200.xml)|
+|    Digital Output             | [3201](xml/3201.xml)|
+|    Analogue Input             | [3202](xml/3202.xml)|
+|    Analogue Output            | [3203](xml/3203.xml)|
+|    Generic Sensor             | [3300](xml/3300.xml)|
+|    Illuminance Sensor         | [3301](xml/3301.xml)|
+|    Presence sensor            | [3302](xml/3302.xml)|
+|    Temperature Sensor         | [3303](xml/3303.xml)|
+|    Humidity Sensor            | [3304](xml/3304.xml)|
+|    Power Measurement          | [3305](xml/3305.xml)|
+|    Actuation                  | [3306](xml/3306.xml)|
+|    Set Point                  | [3308](xml/3308.xml)|
+|    Load Control               | [3310](xml/3310.xml)|
+|    Light Control              | [3311](xml/3311.xml)|
+|    Power Control              | [3312](xml/3312.xml)|
+|    Accelerometer              | [3313](xml/3313.xml)|
+|    Magnetometer               | [3314](xml/3314.xml)|
+|    Barometer                  | [3315](xml/3315.xml)|
+|    Voltage                    | [3316](xml/3316.xml)|
+|    Current                    | [3317](xml/3317.xml)|
+|    Frequency                  | [3318](xml/3318.xml)|
+|    Depth                      | [3319](xml/3319.xml)|
+|    Percentage                 | [3320](xml/3320.xml)|
+|    Altitude                   | [3321](xml/3321.xml)|
+|    Load                       | [3322](xml/3322.xml)|
+|    Pressure                   | [3323](xml/3323.xml)|
+|    Loudness                   | [3324](xml/3324.xml)|
+|    Concentration              | [3325](xml/3325.xml)|
+|    Acidity                    | [3326](xml/3326.xml)|
+|    Conductivity               | [3327](xml/3327.xml)|
+|    Power                      | [3328](xml/3328.xml)|
+|    Power Factor               | [3329](xml/3329.xml)|
+|    Distance                   | [3330](xml/3330.xml)|
+|    Energy                     | [3331](xml/3331.xml)|
+|    Direction                  | [3332](xml/3332.xml)|
+|    Time                       | [3333](xml/3333.xml)|
+|    Gyrometer                  | [3334](xml/3334.xml)|
+|    Color                      | [3335](xml/3335.xml)|
+|    GPS Location               | [3336](xml/3336.xml)|
+|    Positioner                 | [3337](xml/3337.xml)|
+|    Buzzer                     | [3338](xml/3338.xml)|
+|    Audio Clip                 | [3339](xml/3339.xml)|
+|    Timer                      | [3340](xml/3340.xml)|
+|    Addressable Text Display   | [3341](xml/3341.xml)|
+|    On/Off Switch              | [3342](xml/3342.xml)|
+|    Level Controllers          | [3343](xml/3343.xml)|
+|    Up/Down Control            | [3344](xml/3344.xml)|
+|    Multiple Axis Joystick     | [3345](xml/3345.xml)|
+|    Rate                       | [3346](xml/3346.xml)|
+|    Push Button                | [3347](xml/3347.xml)|
+|    Multi-state Selector       | [3348](xml/3348.xml)|
+|    Bitmap                     | [3349](xml/3349.xml)|
+|    Stopwatch                  | [3350](xml/3350.xml)|
 
 
 
