@@ -127,6 +127,8 @@ The following is a example of a humidity sensor that contains the sensor value, 
 
 The following is the definition document for the Humidity Object in XML.
 
+
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LWM2M>
