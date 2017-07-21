@@ -245,7 +245,7 @@ The current set of registered Objects and their corresponding Object IDs can be 
 <a name="newobjects"></a>
 ## 7. Creating new Objects
 
-The tools and links above provide sufficient information to get started with IPSO Objects. As the amount of devices and applications grows, you will have to define new Objects that define functionality missing on the [IPSO Registry](https://github.com/IPSO-Alliance/pub/tree/master/reg/xml). New Objects can be then created following the same design patterns and schema.
+The tools and links above provide sufficient information to get started with IPSO Objects. As the amount of devices and applications grows, you will have to define new Objects that define functionality missing on the [IPSO Registry](https://github.com/IPSO-Alliance/pub/tree/master/reg/xml). New Objects can be then created following the same design patterns and same schema.
 
 If you happen to find some basic Object that you feel should be registered, you can do a pull request on the master branch and commit the new Object to the [IPSO Registry](https://github.com/IPSO-Alliance/pub/tree/master/reg/xml) or [OMNA Registry](http://www.openmobilealliance.org/wp/OMNA/LwM2M/LwM2MRegistry.html). We will then add it there if it is needed.
 
