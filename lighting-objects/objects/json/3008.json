@@ -1,0 +1,83 @@
+
+{
+  "LWM2M" : {
+    "Object" : {
+      "ObjectID": 3008,
+      "ObjectURN": "urn:oma:lwm2m:ext:3008",
+      "Name": "Peer",
+      "MultipleInstances": "Multiple",
+      "Mandatory": "Optional",
+      "Description": "Network Peer Object",
+      "Resources": {
+        "Item": [
+          {
+            "ResourceID": 5047,
+            "Name": "Network Address",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "String",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "RFC3986 URI with shceme and authority"
+          },
+          {
+            "ResourceID": 5048,
+            "Name": "Short ID",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "Integer",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Short ID for ACL reference"
+          },
+          {
+            "ResourceID": 5049,
+            "Name": "Public Key",
+            "Operations": "R",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "String",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Local Public Key used in Handshake"
+          },
+          {
+            "ResourceID": 5050,
+            "Name": "Private Key",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Opaque",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Local Private Key used in verification and signing"
+          },
+          {
+            "ResourceID": 5051,
+            "Name": "External Public Key",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "String",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Remote Public Key used in Handshake"
+          },
+          {
+            "ResourceID": 5750,
+            "Name": "Application Type",
+            "Operations": "R",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "String",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "The application type or use context"
+          }
+        ]
+      }
+    }
+  }
+}

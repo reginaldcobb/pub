@@ -1,0 +1,83 @@
+
+{
+  "LWM2M" : {
+    "Object" : {
+      "ObjectID": 3012,
+      "ObjectURN": "urn:oma:lwm2m:ext:3012",
+      "Name": "Scene Control",
+      "MultipleInstances": "Multiple",
+      "Mandatory": "Optional",
+      "Description": "Scene Control Object",
+      "Resources": {
+        "Item": [
+          {
+            "ResourceID": 5075,
+            "Name": "Current Scene",
+            "Operations": "R",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "Objlink",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "The most recently recalled Scene"
+          },
+          {
+            "ResourceID": 5076,
+            "Name": "Recall Scene",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "Objlink",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Recall the indicated Scene"
+          },
+          {
+            "ResourceID": 5002,
+            "Name": "Transition Time",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Time to reach the new state or value"
+          },
+          {
+            "ResourceID": 5073,
+            "Name": "Valid",
+            "Operations": "R",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Boolean",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Indicates that the value obtained is the most current value, e.g. a scene state matches the state of all resources in the scene"
+          },
+          {
+            "ResourceID": 5077,
+            "Name": "Update Scene",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Objlink",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Update the current scene or the linked scene"
+          },
+          {
+            "ResourceID": 5750,
+            "Name": "Application Type",
+            "Operations": "R",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "String",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "The application type or use context"
+          }
+        ]
+      }
+    }
+  }
+}

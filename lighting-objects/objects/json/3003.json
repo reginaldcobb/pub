@@ -1,0 +1,182 @@
+
+{
+  "LWM2M" : {
+    "Object" : {
+      "ObjectID": 3003,
+      "ObjectURN": "urn:oma:lwm2m:ext:3003",
+      "Name": "Color XY",
+      "MultipleInstances": "Multiple",
+      "Mandatory": "Optional",
+      "Description": "Color control using the CIE XY Color Space",
+      "Resources": {
+        "Item": [
+          {
+            "ResourceID": 5029,
+            "Name": "Current X",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Current value of X setting for XY light control mode"
+          },
+          {
+            "ResourceID": 5030,
+            "Name": "Current Y",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Current value of Y setting for XY light control mode"
+          },
+          {
+            "ResourceID": 5052,
+            "Name": "Actions",
+            "Operations": "CRWD",
+            "MultipleInstances": "Multiple",
+            "Mandatory": "Optional",
+            "Type": "String",
+            "RangeEnumeration": "JSON",
+            "Units": "",
+            "Description": "Reusable resource for current collection of actions"
+          },
+          {
+            "ResourceID": 5053,
+            "Name": "Current Action",
+            "Operations": "R",
+            "MultipleInstances": "Multiple",
+            "Mandatory": "Optional",
+            "Type": "Integer",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Index in Actions array of the current action"
+          },
+          {
+            "ResourceID": 5002,
+            "Name": "Transition Time",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Time to reach the new state or value"
+          },
+          {
+            "ResourceID": 5003,
+            "Name": "Remaining Time",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Time left to execute teh current Action"
+          },
+          {
+            "ResourceID": 5004,
+            "Name": "Stop",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Opaque",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Stop the currently executing Action"
+          },
+          {
+            "ResourceID": 5057,
+            "Name": "Change X",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Change X Setting"
+          },
+          {
+            "ResourceID": 5058,
+            "Name": "Change Y",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Change Y Setting"
+          },
+          {
+            "ResourceID": 5034,
+            "Name": "Move X",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Start Move X Operation at the given rate"
+          },
+          {
+            "ResourceID": 5035,
+            "Name": "Move Y",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Start Move Y Operation at the given rate"
+          },
+          {
+            "ResourceID": 5039,
+            "Name": "Step X",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Start Step X Operation at the given rate"
+          },
+          {
+            "ResourceID": 5040,
+            "Name": "Step Y",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Start Step Y Operation at the given rate"
+          },
+          {
+            "ResourceID": 5007,
+            "Name": "Step Time",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:s",
+            "Description": "Time to move Step amount"
+          },
+          {
+            "ResourceID": 5750,
+            "Name": "Application Type",
+            "Operations": "R",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "String",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "The application type or use context"
+          }
+        ]
+      }
+    }
+  }
+}
