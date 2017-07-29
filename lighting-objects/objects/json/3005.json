@@ -1,0 +1,226 @@
+
+{
+  "LWM2M" : {
+    "Object" : {
+      "ObjectID": 3005,
+      "ObjectURN": "urn:oma:lwm2m:ext:3005",
+      "Name": "Color RGB",
+      "MultipleInstances": "Multiple",
+      "Mandatory": "Optional",
+      "Description": "Color control using the RGB Color Space",
+      "Resources": {
+        "Item": [
+          {
+            "ResourceID": 5060,
+            "Name": "Current Red",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Current Red Setting"
+          },
+          {
+            "ResourceID": 5061,
+            "Name": "Current Green",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Current Green Setting"
+          },
+          {
+            "ResourceID": 5062,
+            "Name": "Current Blue",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Mandatory",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Current Blue Setting"
+          },
+          {
+            "ResourceID": 5052,
+            "Name": "Actions",
+            "Operations": "CRWD",
+            "MultipleInstances": "Multiple",
+            "Mandatory": "Optional",
+            "Type": "String",
+            "RangeEnumeration": "JSON",
+            "Units": "",
+            "Description": "Reusable resource for current collection of actions"
+          },
+          {
+            "ResourceID": 5053,
+            "Name": "Current Action",
+            "Operations": "R",
+            "MultipleInstances": "Multiple",
+            "Mandatory": "Optional",
+            "Type": "Integer",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Index in Actions array of the current action"
+          },
+          {
+            "ResourceID": 5002,
+            "Name": "Transition Time",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Time to reach the new state or value"
+          },
+          {
+            "ResourceID": 5003,
+            "Name": "Remaining Time",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Time left to execute teh current Action"
+          },
+          {
+            "ResourceID": 5004,
+            "Name": "Stop",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Opaque",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Stop the currently executing Action"
+          },
+          {
+            "ResourceID": 5063,
+            "Name": "Change Red",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Change Red Setting"
+          },
+          {
+            "ResourceID": 5064,
+            "Name": "Change Green",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Change Green Setting"
+          },
+          {
+            "ResourceID": 5065,
+            "Name": "Change Blue",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "Change Blue Setting"
+          },
+          {
+            "ResourceID": 5066,
+            "Name": "Move Red",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%/ucum:sec",
+            "Description": "Move Red settig per second Setting"
+          },
+          {
+            "ResourceID": 5067,
+            "Name": "Move Green",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%/ucum:sec",
+            "Description": "Move Green settig per second Setting"
+          },
+          {
+            "ResourceID": 5068,
+            "Name": "Move Blue",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%/ucum:sec",
+            "Description": "Move Blue settig per second Setting"
+          },
+          {
+            "ResourceID": 5069,
+            "Name": "Step Red",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Step Red setting relative to current value"
+          },
+          {
+            "ResourceID": 5070,
+            "Name": "Step Green",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Step Green setting relative to current value"
+          },
+          {
+            "ResourceID": 5071,
+            "Name": "Step Blue",
+            "Operations": "E",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:%",
+            "Description": "Step Blue setting relative to current value"
+          },
+          {
+            "ResourceID": 5007,
+            "Name": "Step Time",
+            "Operations": "RW",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "Float",
+            "RangeEnumeration": "",
+            "Units": "ucum:s",
+            "Description": "Time to move Step amount"
+          },
+          {
+            "ResourceID": 5750,
+            "Name": "Application Type",
+            "Operations": "R",
+            "MultipleInstances": "Single",
+            "Mandatory": "Optional",
+            "Type": "String",
+            "RangeEnumeration": "",
+            "Units": "",
+            "Description": "The application type or use context"
+          }
+        ]
+      }
+    }
+  }
+}
