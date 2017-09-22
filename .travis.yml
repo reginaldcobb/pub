@@ -10,4 +10,11 @@ branches:
 before_script:
   - xmllint --version
 
+addons:
+  apt:
+    packages:
+    - build-essential
+    - git
+    - libxml2-utils
+
 script: 'xmllint --noout --schema http://technical.openmobilealliance.org/tech/profiles/LWM2M.xsd ./reg/xml/*.xml'
