@@ -124,7 +124,7 @@ Below there is the set of Resources that can be used as building blocks for your
 |    Max Measured Value           | 5602|           R|  Float|
 |    Min Range Value              | 5603|           R|  Float|
 |    Max Range Value              | 5604|           R|  Float|
-|Reset Min and Max Measured Values| 5605|           E| Opaque|
+|Reset Min and Max Measured Values| 5605|           E|       |
 |    Analog Output Current Value  | 5650|         R,W|  Float|  
 |    Sensor Value	                | 5700|           R|  Float|
 |    Sensor Units                 | 5701|           R| String|
