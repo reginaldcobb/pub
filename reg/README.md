@@ -76,7 +76,7 @@ Below there is the set of Resources that can be used as building blocks for your
 |    Digital Input Polarity				| 5502|         R,W|Boolean|
 |    Digital Input Debounce				| 5503|         R,W|Integer|
 |    Digital Input Edge Selection	| 5504|         R,W|Integer|
-|    Digital Input Counter Reset	| 5505|           E| Opaque|
+|    Digital Input Counter Reset	| 5505|           E|       |
 |    Current Time 	              | 5506|         R,W|   Time|
 |    Fractional Time  	          | 5507|         R,W|  Float|
 |    Min X Value	                | 5508|           R|  Float|
@@ -94,7 +94,7 @@ Below there is the set of Resources that can be used as building blocks for your
 |    Max Limit 	                  | 5520|           R|  Float|
 |    Delay Duration             	| 5521|         R,W|  Float|
 |    Clip 	                      | 5522|         R,W| Opaque|
-|    Trigger 	                    | 5523|           E| Opaque|
+|    Trigger 	                    | 5523|           E|       |
 |    Duration 	                  | 5524|         R,W|  Float|
 |    Minimum Off-time             | 5525|         R,W|  Float|
 |    Mode                         | 5526|         R,W|Integer|
@@ -124,7 +124,7 @@ Below there is the set of Resources that can be used as building blocks for your
 |    Max Measured Value           | 5602|           R|  Float|
 |    Min Range Value              | 5603|           R|  Float|
 |    Max Range Value              | 5604|           R|  Float|
-|Reset Min and Max Measured Values| 5605|           E| Opaque|
+|Reset Min and Max Measured Values| 5605|           E|       |
 |    Analog Output Current Value  | 5650|         R,W|  Float|  
 |    Sensor Value	                | 5700|           R|  Float|
 |    Sensor Units                 | 5701|           R| String|
@@ -151,7 +151,7 @@ Below there is the set of Resources that can be used as building blocks for your
 |    Reactive Power Calibration   | 5816|           W|  Float|
 |    Power Factor                 | 5820|           R|  Float|
 |    Current Calibration          | 5821|         R,W|  Float|
-|    Reset Cumulative energy      | 5822|           E| Opaque|
+|    Reset Cumulative energy      | 5822|           E|       |
 |    Event Identifier             | 5823|         R,W| String|
 |    Start Time                   | 5824|         R,W|  Float|
 |    Duration In Min              | 5825|         R,W|  Float|
@@ -167,7 +167,7 @@ Below there is the set of Resources that can be used as building blocks for your
 |    Busy to Clear delay          | 5903|         R,W|Integer|
 |    Clear to Busy delay          | 5904|         R,W|Integer|
 |    Bitmap Input                 | 5910|           R|Integer|
-|    Bitmap Input Reset           | 5911|           E| Opaque|
+|    Bitmap Input Reset           | 5911|           E|       |
 |    Element Description          | 5912|         R,W| String|
 |    UUID                         | 5913|         R,W|  Float|
 
