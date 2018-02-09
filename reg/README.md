@@ -56,7 +56,7 @@ This object set is intended to be used as a starting place from which to build m
 |    Timer                      | [3340](xml/3340.xml)|
 |    Addressable Text Display   | [3341](xml/3341.xml)|
 |    On/Off Switch              | [3342](xml/3342.xml)|
-|    Level Controllers          | [3343](xml/3343.xml)|
+|    Dimmer                     | [3343](xml/3343.xml)|
 |    Up/Down Control            | [3344](xml/3344.xml)|
 |    Multiple Axis Joystick     | [3345](xml/3345.xml)|
 |    Rate                       | [3346](xml/3346.xml)|
