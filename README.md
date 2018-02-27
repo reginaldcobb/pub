@@ -175,7 +175,7 @@ The following is the definition document for the Humidity Object in XML.
 				<Operations>R</Operations>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
-				<Type>String</Type>
+				<Type>Float</Type>
 				<RangeEnumeration></RangeEnumeration>
 				<Units>Defined by “Units” resource.</Units>
 				<Description>The minimum value that can be measured by the sensor</Description>
