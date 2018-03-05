@@ -258,7 +258,7 @@ If you have specific apps or gadgets that need to be covered by IPSO Objects you
 
 - "The Constrained Application Protocol (CoAP)". April 2017. <https://tools.ietf.org/html/rfc7252>
 - "Lightweight Machine to Machine Technical Specification, Approved Version 1.0". Feb 2017. [OMA-TS-LightweightM2M-V1_0-20170208-A.pdf](http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf)
-- "Media Types for Sensor Measurement Lists (SenML)". March 2017. <https://tools.ietf.org/html/draft-ietf-core-senml-05>
+- "Media Types for Sensor Measurement Lists (SenML)". March 2018. <https://tools.ietf.org/html/draft-ietf-core-senml-13>
 - "Representing CoRE Formats in JSON and CBOR". April 2017. <https://tools.ietf.org/html/draft-ietf-core-links-json-07>
 - "Observing Resources in the Constrained Application Protocol (CoAP)". April 2017. <https://tools.ietf.org/html/rfc7641>
 - "Concise Binary Object Representation (CBOR)". April 2017. <http://cbor.io>
