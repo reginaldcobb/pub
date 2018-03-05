@@ -266,4 +266,4 @@ If you have specific apps or gadgets that need to be covered by IPSO Objects you
 
 ---
 
-Authored by [Contributors](https://github.com/IPSO-Alliance/pub/graphs/contributors) - 2017 IPSO Alliance
+Authored by [Contributors](https://github.com/IPSO-Alliance/pub/graphs/contributors) - 2018 IPSO Alliance
