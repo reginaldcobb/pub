@@ -4,7 +4,7 @@
     <Name>Presence</Name>
     <Description1>Presence sensor with digital sensing, optional delay parameters</Description1>
     <ObjectID>3302</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3302</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3302:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

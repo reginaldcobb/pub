@@ -5,7 +5,7 @@
     <Description1>This IPSO object should be used with voltmeter sensor to report measured voltage between two points.  It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: V).
         </Description1>
     <ObjectID>3316</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3316</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3316:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

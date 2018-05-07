@@ -5,7 +5,7 @@
     <Description1>This IPSO object should be used to report power measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is Watts (ucum: W). This resource may be used for either real power or apparent power (units= ucum:VA) measurements. The Application type can be use for reactive power or active power for example.
         </Description1>
     <ObjectID>3328</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3328</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3328:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

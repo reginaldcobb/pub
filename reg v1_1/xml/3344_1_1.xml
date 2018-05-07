@@ -5,7 +5,7 @@
     <Description1>This IPSO object is used to report the state of an up/down control element like a pair of push buttons or a rotary encoder. Counters for increase and decrease operations are provided for counting pulses from a quadrature encoder.
         </Description1>
     <ObjectID>3344</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3344</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3344:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

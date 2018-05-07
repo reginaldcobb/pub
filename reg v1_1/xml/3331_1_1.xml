@@ -5,7 +5,7 @@
     <Description1>This IPSO object should be used to report energy consumption (Cumulative Power) of an electrical load. An example measurement unit is Watt Hours (ucum:W*h).
         </Description1>
     <ObjectID>3331</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3331</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3331:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

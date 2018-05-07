@@ -4,7 +4,7 @@
     <Name>Actuation</Name>
     <Description1>This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multi-state output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on.</Description1>
     <ObjectID>3306</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3306</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3306:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

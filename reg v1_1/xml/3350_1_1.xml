@@ -4,7 +4,7 @@
     <Name>Stopwatch</Name>
     <Description1>An ascending timer that counts how long time has passed since the timer was started after reset.</Description1>
     <ObjectID>3350</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3350</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3350:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <LWM2MVersion/>

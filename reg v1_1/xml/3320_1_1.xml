@@ -5,7 +5,7 @@
     <Description1>This IPSO object should can be used to report measurements relative to a 0-100% scale. For example it could be used to measure the level of a liquid in a vessel or container in units of %.
         </Description1>
     <ObjectID>3320</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3320</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3320:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

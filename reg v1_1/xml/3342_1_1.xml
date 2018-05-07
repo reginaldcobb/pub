@@ -4,7 +4,7 @@
     <Name>On/Off switch</Name>
     <Description1>This IPSO object should be used with an On/Off switch to report the state of the switch.</Description1>
     <ObjectID>3342</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3342</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3342:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

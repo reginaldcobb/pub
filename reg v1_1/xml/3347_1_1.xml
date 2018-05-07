@@ -5,7 +5,7 @@
     <Description1>This IPSO object is used to report the state of a momentary action push button control and to count the number of times the control has been operated since the last observation.
         </Description1>
     <ObjectID>3347</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3347</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3347:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

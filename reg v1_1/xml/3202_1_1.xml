@@ -4,7 +4,7 @@
     <Name>Analog Input</Name>
     <Description1>Generic analog input for non-specific sensors</Description1>
     <ObjectID>3202</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3202</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3202:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

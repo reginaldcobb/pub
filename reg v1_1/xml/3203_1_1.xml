@@ -4,7 +4,7 @@
     <Name>Analog Output</Name>
     <Description1>This IPSO object is a generic object that can be used with any kind of analog output interface.</Description1>
     <ObjectID>3203</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3203</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3203:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

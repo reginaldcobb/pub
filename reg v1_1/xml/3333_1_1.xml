@@ -5,7 +5,7 @@
     <Description1>This IPSO object is used to report the current time in seconds since January 1, 1970 UTC. There is also a fractional time counter that has a range of less than one second.
         </Description1>
     <ObjectID>3333</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3333</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3333:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

@@ -4,7 +4,7 @@
     <Name>Digital Output</Name>
     <Description1>Generic digital output for non-specific actuators</Description1>
     <ObjectID>3201</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3201</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3201:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

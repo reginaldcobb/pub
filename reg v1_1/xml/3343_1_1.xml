@@ -5,7 +5,7 @@
     <Description1>This IPSO object should be used with a dimmer or level control to report the state of the control.
         </Description1>
     <ObjectID>3343</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3343</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3343:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

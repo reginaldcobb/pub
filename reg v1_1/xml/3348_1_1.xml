@@ -5,7 +5,7 @@
     <Description1>This IPSO object is used to represent the state of a Multi-state selector switch with a number of fixed positions.
         </Description1>
     <ObjectID>3348</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3348</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3348:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>

@@ -4,7 +4,7 @@
     <Name>Load Control</Name>
     <Description1>Description: This Object is used for demand-response load control and other load control in automation application (not limited to power).</Description1>
     <ObjectID>3310</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:ext:3310</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:ext:3310:1.1</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
     <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>
