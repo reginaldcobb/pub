@@ -11,59 +11,59 @@ This object set is intended to be used as a starting place from which to build m
 
 | Object                        | Object ID           |
 |:------------------------------|:-------------------:|
-|    Digital Input              | [3200](xml/3200.xml)|
-|    Digital Output             | [3201](xml/3201.xml)|
-|    Analogue Input             | [3202](xml/3202.xml)|
-|    Analogue Output            | [3203](xml/3203.xml)|
-|    Generic Sensor             | [3300](xml/3300.xml)|
-|    Illuminance Sensor         | [3301](xml/3301.xml)|
-|    Presence sensor            | [3302](xml/3302.xml)|
-|    Temperature Sensor         | [3303](xml/3303.xml)|
-|    Humidity Sensor            | [3304](xml/3304.xml)|
-|    Power Measurement          | [3305](xml/3305.xml)|
-|    Actuation                  | [3306](xml/3306.xml)|
-|    Set Point                  | [3308](xml/3308.xml)|
-|    Load Control               | [3310](xml/3310.xml)|
-|    Light Control              | [3311](xml/3311.xml)|
-|    Power Control              | [3312](xml/3312.xml)|
-|    Accelerometer              | [3313](xml/3313.xml)|
-|    Magnetometer               | [3314](xml/3314.xml)|
-|    Barometer                  | [3315](xml/3315.xml)|
-|    Voltage                    | [3316](xml/3316.xml)|
-|    Current                    | [3317](xml/3317.xml)|
-|    Frequency                  | [3318](xml/3318.xml)|
-|    Depth                      | [3319](xml/3319.xml)|
-|    Percentage                 | [3320](xml/3320.xml)|
-|    Altitude                   | [3321](xml/3321.xml)|
-|    Load                       | [3322](xml/3322.xml)|
-|    Pressure                   | [3323](xml/3323.xml)|
-|    Loudness                   | [3324](xml/3324.xml)|
-|    Concentration              | [3325](xml/3325.xml)|
-|    Acidity                    | [3326](xml/3326.xml)|
-|    Conductivity               | [3327](xml/3327.xml)|
-|    Power                      | [3328](xml/3328.xml)|
-|    Power Factor               | [3329](xml/3329.xml)|
-|    Distance                   | [3330](xml/3330.xml)|
-|    Energy                     | [3331](xml/3331.xml)|
-|    Direction                  | [3332](xml/3332.xml)|
-|    Time                       | [3333](xml/3333.xml)|
-|    Gyrometer                  | [3334](xml/3334.xml)|
-|    Color                      | [3335](xml/3335.xml)|
-|    GPS Location               | [3336](xml/3336.xml)|
-|    Positioner                 | [3337](xml/3337.xml)|
-|    Buzzer                     | [3338](xml/3338.xml)|
-|    Audio Clip                 | [3339](xml/3339.xml)|
-|    Timer                      | [3340](xml/3340.xml)|
-|    Addressable Text Display   | [3341](xml/3341.xml)|
-|    On/Off Switch              | [3342](xml/3342.xml)|
-|    Dimmer                     | [3343](xml/3343.xml)|
-|    Up/Down Control            | [3344](xml/3344.xml)|
-|    Multiple Axis Joystick     | [3345](xml/3345.xml)|
-|    Rate                       | [3346](xml/3346.xml)|
-|    Push Button                | [3347](xml/3347.xml)|
-|    Multi-state Selector       | [3348](xml/3348.xml)|
-|    Bitmap                     | [3349](xml/3349.xml)|
-|    Stopwatch                  | [3350](xml/3350.xml)|
+|    Digital Input              | [3200](xml/3200_1_1.xml)|
+|    Digital Output             | [3201](xml/3201_1_1.xml)|
+|    Analogue Input             | [3202](xml/3202_1_1.xml)|
+|    Analogue Output            | [3203](xml/3203_1_1.xml)|
+|    Generic Sensor             | [3300](xml/3300_1_1.xml)|
+|    Illuminance Sensor         | [3301](xml/3301_1_1.xml)|
+|    Presence sensor            | [3302](xml/3302_1_1.xml)|
+|    Temperature Sensor         | [3303](xml/3303_1_1.xml)|
+|    Humidity Sensor            | [3304](xml/3304_1_1.xml)|
+|    Power Measurement          | [3305](xml/3305_1_1.xml)|
+|    Actuation                  | [3306](xml/3306_1_1.xml)|
+|    Set Point                  | [3308](xml/3308_1_1.xml)|
+|    Load Control               | [3310](xml/3310_1_1.xml)|
+|    Light Control              | [3311](xml/3311_1_1.xml)|
+|    Power Control              | [3312](xml/3312_1_1.xml)|
+|    Accelerometer              | [3313](xml/3313_1_1.xml)|
+|    Magnetometer               | [3314](xml/3314_1_1.xml)|
+|    Barometer                  | [3315](xml/3315_1_1.xml)|
+|    Voltage                    | [3316](xml/3316_1_1.xml)|
+|    Current                    | [3317](xml/3317_1_1.xml)|
+|    Frequency                  | [3318](xml/3318_1_1.xml)|
+|    Depth                      | [3319](xml/3319_1_1.xml)|
+|    Percentage                 | [3320](xml/3320_1_1.xml)|
+|    Altitude                   | [3321](xml/3321_1_1.xml)|
+|    Load                       | [3322](xml/3322_1_1.xml)|
+|    Pressure                   | [3323](xml/3323_1_1.xml)|
+|    Loudness                   | [3324](xml/3324_1_1.xml)|
+|    Concentration              | [3325](xml/3325_1_1.xml)|
+|    Acidity                    | [3326](xml/3326_1_1.xml)|
+|    Conductivity               | [3327](xml/3327_1_1.xml)|
+|    Power                      | [3328](xml/3328_1_1.xml)|
+|    Power Factor               | [3329](xml/3329_1_1.xml)|
+|    Distance                   | [3330](xml/3330_1_1.xml)|
+|    Energy                     | [3331](xml/3331_1_1.xml)|
+|    Direction                  | [3332](xml/3332_1_1.xml)|
+|    Time                       | [3333](xml/3333_1_1.xml)|
+|    Gyrometer                  | [3334](xml/3334_1_1.xml)|
+|    Color                      | [3335](xml/3335_1_1.xml)|
+|    GPS Location               | [3336](xml/3336_1_1.xml)|
+|    Positioner                 | [3337](xml/3337_1_1.xml)|
+|    Buzzer                     | [3338](xml/3338_1_1.xml)|
+|    Audio Clip                 | [3339](xml/3339_1_1.xml)|
+|    Timer                      | [3340](xml/3340_1_1.xml)|
+|    Addressable Text Display   | [3341](xml/3341_1_1.xml)|
+|    On/Off Switch              | [3342](xml/3342_1_1.xml)|
+|    Dimmer                     | [3343](xml/3343_1_1.xml)|
+|    Up/Down Control            | [3344](xml/3344_1_1.xml)|
+|    Multiple Axis Joystick     | [3345](xml/3345_1_1.xml)|
+|    Rate                       | [3346](xml/3346_1_1.xml)|
+|    Push Button                | [3347](xml/3347_1_1.xml)|
+|    Multi-state Selector       | [3348](xml/3348_1_1.xml)|
+|    Bitmap                     | [3349](xml/3349_1_1.xml)|
+|    Stopwatch                  | [3350](xml/3350_1_1.xml)|
 
 
 
